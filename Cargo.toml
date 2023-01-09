@@ -6,3 +6,9 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+dotenv = "0.15"
+grammers-client = "0.4"
+grammers-session = "0.4"
+log = "0.4"
+simple_logger = { version = "1.11.0", default-features = false, features = ["colors"] }
+tokio = { version = "1", features = ["rt", "signal"] }
